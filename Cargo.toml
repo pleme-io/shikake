@@ -20,5 +20,8 @@ missing_errors_doc = "allow"
 missing_panics_doc = "allow"
 
 [dependencies]
-nvim-oxi = { version = "0.5", features = ["neovim-0-11"] }
+nvim-oxi = { version = "0.6", features = ["neovim-0-11"] }
 tane = { path = "../tane", version = "0.1.0" }
+thiserror = "2"
+
+[dev-dependencies]
