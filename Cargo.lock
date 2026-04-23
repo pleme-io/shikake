@@ -161,6 +161,8 @@ dependencies = [
 [[package]]
 name = "tane"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c72f01f98afbad421edeeac20c7c2f414a4667a5f6e00fbd480aa9629cddf0a"
 dependencies = [
  "nvim-oxi",
  "serde",
